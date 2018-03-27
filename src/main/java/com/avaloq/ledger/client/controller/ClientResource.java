@@ -29,7 +29,7 @@ public class ClientResource {
     return quote;
   }
 
-  @GetMapping("/posting")
+  @GetMapping("/posting-rule")
   public PostingMap postingMap () {
     RestTemplateBuilder builder = new RestTemplateBuilder();
     RestTemplate restTemplate = builder.build();
